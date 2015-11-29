@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+ main (){
+ 	int X,Y;
+ 	do{
+ 		scanf ("%d" "%d",&X,&Y); 
+		 if (X==Y)break;
+		 if (X<Y){
+	  	printf ("Crescente");
+	  }else{
+	  	printf ("Decrescente");
+	  }
+	 }while (X!=Y);
+	  
+	 system ("pause>>null");
+ }
